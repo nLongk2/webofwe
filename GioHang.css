@@ -1,0 +1,252 @@
+body {
+    background-image: url('background.jpg') !important;
+    background-size: cover !important;
+}
+
+nav {
+    display: flex !important;
+    justify-content: space-between !important;
+    justify-items: center !important;
+}
+
+.main1 {
+    max-width: 100vh !important;
+    margin: 0px auto !important;
+}
+
+#head1 {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    color: #fff !important;
+}
+
+#logo {
+    padding: 5px 5px !important;
+}
+
+#logo img {
+    max-width: 50px !important;
+    height: auto !important;
+}
+
+#menu1 {
+    display: flex !important;
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#menu1 li {
+    position: relative !important;
+}
+
+#menu1 li a {
+    color: #fff !important;
+    display: block !important;
+    padding: 15px 15px !important;
+    text-decoration: none !important;
+}
+
+.input {
+    display: flex;
+}
+
+.input a {
+    text-decoration: none;
+    padding: 15px 15px;
+    color: #fff;
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+    color: #fff;
+    padding: 10px 0px;
+}
+
+#menu1 ul.sub-menu {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px 10px;
+    list-style: none;
+    width: 150px;
+    display: none;
+}
+
+#menu1 li:hover ul.sub-menu {
+    display: block;
+}
+
+#menu1 ul.sub-menu li:hover a {
+    border-bottom: 1px solid rgb(252, 252, 252);
+}
+
+#menu1 ul.sub-menu a {
+    padding: 5px 5px;
+    border-bottom: 1px solid rgb(129, 128, 128);
+}
+
+
+
+.headline {
+    text-align: center;
+    padding: 40px 0px;
+}
+
+h1 {
+    font-size: 30px;
+    color: rgb(2, 2, 2);
+    padding: 20px 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+    font-weight: 500;
+}
+
+ul.products {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul.products li {
+    flex-basis: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+ul.products li .product-info {
+    padding: 10px 0px;
+}
+
+ul.products li img {
+    max-width: 200px;
+    height: 250px;
+}
+
+ul.products li .product-top {
+    position: relative;
+    overflow: hidden;
+}
+
+ul.products li .product-top .product-thumb {
+    display: block;
+}
+
+ul.products li:hover .product-top .product-thumb img {
+    filter: opacity(80%)
+}
+
+ul.products li .product-top .product-thumb img {
+    display: block;
+}
+
+ul.products li .product-top a.buy {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: #111;
+    color: #fff;
+    padding: 10px 0px;
+    position: absolute;
+    width: 100%;
+    bottom: -36px;
+    transition: 0.25s eses-in-out;
+    opacity: 0.8;
+}
+
+ul.products li:hover a.buy {
+    bottom: 0px;
+}
+
+ul.products li .product-info a {
+    display: block;
+    text-decoration: none;
+}
+
+ul.products li .product-info a.product-cat {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgb(3, 3, 3);
+    padding: 5px 0px;
+    font-weight: 600;
+}
+
+ul.products li .product-info a.product-name {
+    color: rgb(2, 2, 2);
+    padding: 5px 0px;
+    font-weight: 600;
+}
+
+ul.products li .product-info .product-price {
+    color: rgb(8, 8, 8);
+    padding: 5px 0px;
+    font-weight: 600;
+}
+
+.footer-item {
+    padding: .5rem .2rem;
+    background: grey;
+    display: flex;
+    color: white;
+}
+
+.footer-item .img-footer {
+    align-items: center;
+    display: flex;
+}
+
+.footer-item .img-footer img {
+    width: 100%;
+}
+
+.footer-item .social-footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.footer-item .social-footer li a {
+    color: #000000;
+    font-size: 2rem;
+}
+
+.footer-item .social-footer li:last-child {
+    margin-left: .5rem;
+}
+
+.lazyload {
+    margin-left: 40%;
+    width: 300px;
+}
+
+.title-menu1 {
+    margin-left: 500px;
+    margin-top: -20px;
+    margin-bottom: 200px;
+}
+
+.list-menu1 {
+    margin-left: 500px;
+    margin-top: -150px;
+    margin-bottom: 200px;
+}
+
+.title-menu2 {
+    margin-left: 1000px;
+    margin-top: -550px;
+    margin-bottom: 280px;
+}
+
+.list-menu2 {
+    margin-left: 1000px;
+    margin-top: -280px;
+}
+
+.sum {
+    text-align: center;
+    font-size: 150%;
+}
